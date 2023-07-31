@@ -1,4 +1,4 @@
-module.exports = function humanReadbleNumber(number) {
+function humanReadbleNumber(number) {
     const words = {
         0: "zero",
         1: "one",
@@ -57,3 +57,4 @@ module.exports = function humanReadbleNumber(number) {
         return threeDigitsToWords(number);
     }
 }
+console.log(humanReadbleNumber(400))
